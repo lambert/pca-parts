@@ -1,0 +1,8 @@
+*~
+*.bak
+*.log
+.git
+index
+mechanical
+sat/obsolete
+under construction
