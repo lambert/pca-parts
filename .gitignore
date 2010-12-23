@@ -4,5 +4,6 @@
 .git
 index
 mechanical
+dwg/*.bak
+dwg/under construction
 sat/obsolete
-under construction
