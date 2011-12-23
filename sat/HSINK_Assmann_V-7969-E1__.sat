@@ -1,0 +1,442 @@
+700 439 1 0         
+16 Autodesk AutoCAD 17 ASM 6.0.2.7023 NT 24 Fri Dec 23 09:37:58 2011 
+1 9.9999999999999995e-007 1e-010 
+body $1 -1 $-1 $2 $-1 $-1 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $0 $3 $4 #
+lump $5 -1 $-1 $-1 $6 $0 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.10729197984479975 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $2 $3 $4 #
+shell $7 -1 $-1 $-1 $-1 $8 $-1 $2 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $6 $3 $4 #
+face $9 -1 $-1 $10 $11 $6 $-1 $12 reversed single #
+color-adesk-attrib $-1 -1 $13 $-1 $8 250 #
+face $14 -1 $-1 $15 $16 $6 $-1 $17 reversed single #
+loop $-1 -1 $-1 $18 $19 $8 #
+cone-surface $-1 -1 $-1 0 25 0 0 0 1 1.6000000000000001 0 0 1 I I 0 1 1.6000000000000001 forward I I I I #
+fmesh-eye-attrib $-1 -1 $20 $9 $8 #
+color-adesk-attrib $-1 -1 $21 $-1 $10 250 #
+face $22 -1 $-1 $23 $24 $6 $-1 $25 reversed single #
+loop $-1 -1 $-1 $-1 $26 $10 #
+cone-surface $-1 -1 $-1 -2.9999999999999996 10.199999999999999 0 0 0 1 -2 2.2204460492503131e-016 0 1 I I 0 1 2 forward I I I I #
+loop $-1 -1 $-1 $-1 $27 $8 #
+coedge $-1 -1 $-1 $19 $19 $28 $29 reversed $11 $-1 #
+ref_vt-eye-attrib $-1 -1 $-1 $13 $8 $3 $4 #
+fmesh-eye-attrib $-1 -1 $30 $14 $10 #
+color-adesk-attrib $-1 -1 $31 $-1 $15 250 #
+face $32 -1 $-1 $33 $34 $6 $-1 $35 reversed single #
+loop $-1 -1 $-1 $-1 $36 $15 #
+plane-surface $-1 -1 $-1 -3 12.199999999999999 0 0 1 0 0 0 1 forward_v I I I I #
+coedge $-1 -1 $-1 $37 $38 $39 $40 reversed $16 $-1 #
+coedge $-1 -1 $-1 $27 $27 $41 $42 reversed $18 $-1 #
+coedge $-1 -1 $-1 $28 $28 $19 $29 forward $43 $-1 #
+edge $44 -1 $-1 $45 0 $45 6.2831853071795862 $28 $46 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $21 $10 $3 $4 #
+fmesh-eye-attrib $-1 -1 $47 $22 $15 #
+color-adesk-attrib $-1 -1 $48 $-1 $23 250 #
+face $49 -1 $-1 $50 $51 $6 $-1 $52 reversed single #
+loop $-1 -1 $-1 $-1 $53 $23 #
+cone-surface $-1 -1 $-1 2.9999999999999996 10.199999999999999 0 0 0 1 2 0 0 1 I I 0 1 2 forward I I I I #
+coedge $-1 -1 $-1 $54 $55 $56 $57 reversed $24 $-1 #
+coedge $-1 -1 $-1 $58 $26 $59 $60 reversed $16 $-1 #
+coedge $-1 -1 $-1 $26 $58 $54 $61 forward $16 $-1 #
+coedge $-1 -1 $-1 $56 $62 $26 $40 forward $63 $-1 #
+edge $64 -1 $-1 $65 -1.5707963267948963 $66 1.5707963267948963 $39 $67 forward @7 unknown #
+coedge $-1 -1 $-1 $41 $41 $27 $42 forward $68 $-1 #
+edge $69 -1 $-1 $70 0 $70 6.2831853071795862 $41 $71 forward @7 unknown #
+loop $-1 -1 $-1 $63 $28 $72 #
+color-adesk-attrib $-1 -1 $73 $-1 $29 250 #
+vertex $-1 -1 $-1 $29 $74 #
+ellipse-curve $-1 -1 $-1 0 25 2 2.0185873175002847e-017 0 -1 1.6000000000000001 0 0 1 I I #
+ref_vt-eye-attrib $-1 -1 $-1 $31 $15 $3 $4 #
+fmesh-eye-attrib $-1 -1 $75 $32 $23 #
+color-adesk-attrib $-1 -1 $76 $-1 $33 250 #
+face $77 -1 $-1 $78 $79 $6 $-1 $80 forward single #
+loop $-1 -1 $-1 $-1 $81 $33 #
+plane-surface $-1 -1 $-1 3 8.1999999999999993 0 0 -1 0 0 0 -1 forward_v I I I I #
+coedge $-1 -1 $-1 $82 $83 $84 $85 reversed $34 $-1 #
+coedge $-1 -1 $-1 $86 $36 $38 $61 reversed $24 $-1 #
+coedge $-1 -1 $-1 $36 $86 $82 $87 forward $24 $-1 #
+coedge $-1 -1 $-1 $84 $39 $36 $57 forward $63 $-1 #
+edge $88 -1 $-1 $66 -4.25 $89 1.75 $56 $90 forward @7 unknown #
+coedge $-1 -1 $-1 $38 $37 $91 $92 reversed $16 $-1 #
+coedge $-1 -1 $-1 $81 $93 $37 $60 forward $51 $-1 #
+edge $94 -1 $-1 $95 0 $65 2 $37 $96 forward @7 unknown #
+edge $97 -1 $-1 $98 0 $66 2 $54 $99 forward @7 unknown #
+coedge $-1 -1 $-1 $39 $84 $81 $100 forward $63 $-1 #
+loop $-1 -1 $-1 $101 $39 $72 #
+color-adesk-attrib $-1 -1 $102 $-1 $40 250 #
+vertex $-1 -1 $-1 $40 $103 #
+vertex $-1 -1 $-1 $40 $104 #
+ellipse-curve $-1 -1 $-1 -2.9999999999999996 10.199999999999999 2 2.0185873175002847e-017 0 -1 -2 2.2204460492503131e-016 0 1 I I #
+loop $-1 -1 $-1 $105 $41 $106 #
+color-adesk-attrib $-1 -1 $107 $-1 $42 250 #
+vertex $-1 -1 $-1 $42 $108 #
+ellipse-curve $-1 -1 $-1 0 25 0 0 0 1 1.6000000000000001 0 0 1 I I #
+face $109 -1 $-1 $110 $43 $6 $-1 $111 forward single #
+ptlist-eye-attrib $-1 -1 $-1 $44 $29 #
+point $-1 -1 $-1 1.6000000000000001 25 2 #
+ref_vt-eye-attrib $-1 -1 $-1 $48 $23 $3 $4 #
+fmesh-eye-attrib $-1 -1 $112 $49 $33 #
+color-adesk-attrib $-1 -1 $113 $-1 $50 250 #
+face $114 -1 $-1 $106 $115 $6 $-1 $116 forward single #
+loop $-1 -1 $-1 $-1 $117 $50 #
+plane-surface $-1 -1 $-1 -7.5 0 30.000000000000004 -1 0 0 0 0 1 forward_v I I I I #
+coedge $-1 -1 $-1 $118 $59 $62 $100 reversed $51 $-1 #
+coedge $-1 -1 $-1 $119 $53 $55 $87 reversed $34 $-1 #
+coedge $-1 -1 $-1 $53 $119 $118 $120 forward $34 $-1 #
+coedge $-1 -1 $-1 $62 $56 $53 $85 forward $63 $-1 #
+edge $121 -1 $-1 $89 -1.5707963267948963 $122 1.5707963267948963 $84 $123 forward @7 unknown #
+coedge $-1 -1 $-1 $55 $54 $124 $125 reversed $24 $-1 #
+edge $126 -1 $-1 $127 0 $89 2 $82 $128 forward @7 unknown #
+color-adesk-attrib $-1 -1 $129 $-1 $57 250 #
+vertex $-1 -1 $-1 $57 $130 #
+straight-curve $-1 -1 $-1 1.25 12.199999999999999 2 1 0 2.0185873175002847e-017 I I #
+coedge $-1 -1 $-1 $131 $124 $58 $92 forward $105 $-1 #
+edge $132 -1 $-1 $98 -1.5707963267948963 $95 1.5707963267948963 $91 $133 forward @7 unknown #
+coedge $-1 -1 $-1 $59 $118 $131 $134 reversed $51 $-1 #
+color-adesk-attrib $-1 -1 $135 $-1 $60 250 #
+vertex $-1 -1 $-1 $92 $136 #
+straight-curve $-1 -1 $-1 -3.0000000000000004 8.1999999999999993 0 0 0 1 I I #
+color-adesk-attrib $-1 -1 $137 $-1 $61 250 #
+vertex $-1 -1 $-1 $92 $138 #
+straight-curve $-1 -1 $-1 -3 12.199999999999999 0 0 0 1 I I #
+edge $139 -1 $-1 $122 1.25 $65 7.25 $62 $140 forward @7 unknown #
+loop $-1 -1 $-1 $-1 $141 $72 #
+ptlist-eye-attrib $-1 -1 $-1 $64 $40 #
+point $-1 -1 $-1 -3.0000000000000004 8.1999999999999993 2 #
+point $-1 -1 $-1 -3 12.199999999999999 2 #
+loop $-1 -1 $-1 $142 $91 $106 #
+face $143 -1 $-1 $144 $68 $6 $-1 $145 forward single #
+ptlist-eye-attrib $-1 -1 $-1 $69 $42 #
+point $-1 -1 $-1 1.6000000000000001 25 0 #
+color-adesk-attrib $-1 -1 $146 $-1 $72 250 #
+face $147 -1 $-1 $148 $149 $6 $-1 $150 forward single #
+plane-surface $-1 -1 $-1 5.5 0 2 -2.0185873175002847e-017 0 1 1 0 2.0185873175002847e-017 forward_v I I I I #
+ref_vt-eye-attrib $-1 -1 $-1 $76 $33 $3 $4 #
+fmesh-eye-attrib $-1 -1 $151 $77 $50 #
+color-adesk-attrib $-1 -1 $152 $-1 $78 250 #
+loop $-1 -1 $-1 $-1 $153 $78 #
+cone-surface $-1 -1 $-1 -5.5 0 2 0 1 0 -1.4142135623730949 0 -1.4142135623730949 1 I I 0 1 1.9999999999999998 forward I I I I #
+coedge $-1 -1 $-1 $154 $155 $156 $157 forward $79 $-1 #
+coedge $-1 -1 $-1 $93 $81 $83 $120 reversed $51 $-1 #
+coedge $-1 -1 $-1 $83 $82 $158 $159 reversed $34 $-1 #
+edge $160 -1 $-1 $161 0 $122 2 $118 $162 forward @7 unknown #
+color-adesk-attrib $-1 -1 $163 $-1 $85 250 #
+vertex $-1 -1 $-1 $85 $164 #
+ellipse-curve $-1 -1 $-1 2.9999999999999996 10.199999999999999 2 2.0185873175002847e-017 0 -1 2 0 0 1 I I #
+coedge $-1 -1 $-1 $91 $158 $86 $125 forward $105 $-1 #
+edge $165 -1 $-1 $127 -7.25 $98 -1.25 $124 $166 forward @7 unknown #
+color-adesk-attrib $-1 -1 $167 $-1 $87 250 #
+vertex $-1 -1 $-1 $125 $168 #
+straight-curve $-1 -1 $-1 3 12.199999999999999 0 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $88 $57 #
+point $-1 -1 $-1 3 12.199999999999999 2 #
+coedge $-1 -1 $-1 $158 $91 $93 $134 forward $105 $-1 #
+color-adesk-attrib $-1 -1 $169 $-1 $92 250 #
+ellipse-curve $-1 -1 $-1 -2.9999999999999996 10.199999999999999 0 0 0 1 -2 2.2204460492503131e-016 0 1 I I #
+edge $170 -1 $-1 $95 -1.7500000000000004 $161 4.25 $131 $171 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $94 $60 #
+point $-1 -1 $-1 -3.0000000000000004 8.1999999999999993 0 #
+ptlist-eye-attrib $-1 -1 $-1 $97 $61 #
+point $-1 -1 $-1 -3 12.199999999999999 0 #
+color-adesk-attrib $-1 -1 $172 $-1 $100 250 #
+straight-curve $-1 -1 $-1 4.25 8.1999999999999993 2 -1 0 -2.0185873175002847e-017 I I #
+coedge $-1 -1 $-1 $173 $174 $175 $176 forward $101 $-1 #
+loop $-1 -1 $-1 $-1 $177 $106 #
+color-adesk-attrib $-1 -1 $178 $-1 $106 250 #
+face $179 -1 $-1 $180 $181 $6 $-1 $182 forward single #
+plane-surface $-1 -1 $-1 -5.5 0 0 0 0 -1 -1 0 0 forward_v I I I I #
+fmesh-eye-attrib $-1 -1 $183 $109 $72 #
+color-adesk-attrib $-1 -1 $184 $-1 $110 250 #
+face $185 -1 $-1 $186 $187 $6 $-1 $188 forward single #
+loop $-1 -1 $-1 $-1 $189 $110 #
+plane-surface $-1 -1 $-1 -5.5 0 1.9999999999999998 1 0 0 0 0 -1 forward_v I I I I #
+ref_vt-eye-attrib $-1 -1 $-1 $113 $50 $3 $4 #
+fmesh-eye-attrib $-1 -1 $190 $114 $78 #
+coedge $-1 -1 $-1 $191 $192 $193 $194 forward $115 $-1 #
+coedge $-1 -1 $-1 $195 $117 $192 $196 reversed $79 $-1 #
+coedge $-1 -1 $-1 $117 $195 $197 $198 forward $79 $-1 #
+coedge $-1 -1 $-1 $199 $193 $117 $157 reversed $200 $-1 #
+edge $201 -1 $-1 $202 0 $203 28.000000000000004 $117 $204 forward @7 unknown #
+coedge $-1 -1 $-1 $124 $131 $119 $159 forward $105 $-1 #
+edge $205 -1 $-1 $161 -1.5707963267948963 $127 1.5707963267948963 $158 $206 forward @7 unknown #
+color-adesk-attrib $-1 -1 $207 $-1 $120 250 #
+vertex $-1 -1 $-1 $159 $208 #
+straight-curve $-1 -1 $-1 3 8.1999999999999993 0 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $121 $85 #
+point $-1 -1 $-1 3 8.1999999999999993 2 #
+color-adesk-attrib $-1 -1 $209 $-1 $125 250 #
+straight-curve $-1 -1 $-1 -4.25 12.199999999999999 0 -1 0 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $126 $87 #
+point $-1 -1 $-1 3 12.199999999999999 0 #
+ptlist-eye-attrib $-1 -1 $-1 $132 $92 #
+color-adesk-attrib $-1 -1 $210 $-1 $134 250 #
+straight-curve $-1 -1 $-1 -1.25 8.1999999999999993 0 1 0 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $139 $100 #
+coedge $-1 -1 $-1 $211 $141 $212 $213 reversed $101 $-1 #
+coedge $-1 -1 $-1 $141 $211 $214 $215 forward $101 $-1 #
+coedge $-1 -1 $-1 $216 $217 $141 $176 reversed $200 $-1 #
+edge $218 -1 $-1 $219 0 $220 11 $141 $221 forward @7 unknown #
+coedge $-1 -1 $-1 $222 $223 $224 $225 forward $142 $-1 #
+fmesh-eye-attrib $-1 -1 $226 $143 $106 #
+color-adesk-attrib $-1 -1 $227 $-1 $144 250 #
+face $228 -1 $-1 $229 $230 $6 $-1 $231 forward single #
+loop $-1 -1 $-1 $-1 $232 $144 #
+cone-surface $-1 -1 $-1 5.5 0 2 0 1 0 1.4142135623730949 0 -1.4142135623730949 1 I I 0 1 1.9999999999999998 forward I I I I #
+ref_vt-eye-attrib $-1 -1 $-1 $146 $72 $3 $4 #
+fmesh-eye-attrib $-1 -1 $233 $147 $110 #
+color-adesk-attrib $-1 -1 $234 $-1 $148 250 #
+face $235 -1 $-1 $236 $200 $6 $-1 $237 forward single #
+loop $-1 -1 $-1 $-1 $238 $148 #
+plane-surface $-1 -1 $-1 -5.5 0 30.000000000000007 -1.7763568394002505e-015 0 1 1 0 1.7763568394002505e-015 forward_v I I I I #
+coedge $-1 -1 $-1 $239 $212 $217 $240 forward $149 $-1 #
+ref_vt-eye-attrib $-1 -1 $-1 $152 $78 $3 $4 #
+coedge $-1 -1 $-1 $241 $153 $223 $242 reversed $115 $-1 #
+coedge $-1 -1 $-1 $153 $241 $154 $196 forward $115 $-1 #
+coedge $-1 -1 $-1 $156 $224 $153 $194 reversed $200 $-1 #
+edge $243 -1 $-1 $203 -0.78539816339744828 $244 0.78539816339744828 $153 $245 forward @7 unknown #
+coedge $-1 -1 $-1 $155 $154 $246 $247 reversed $79 $-1 #
+edge $248 -1 $-1 $249 0 $203 35 $192 $250 forward @7 unknown #
+coedge $-1 -1 $-1 $251 $238 $155 $198 reversed $187 $-1 #
+edge $252 -1 $-1 $253 0 $202 35 $155 $254 forward @7 unknown #
+coedge $-1 -1 $-1 $217 $156 $238 $255 reversed $200 $-1 #
+loop $-1 -1 $-1 $-1 $156 $186 #
+color-adesk-attrib $-1 -1 $256 $-1 $157 250 #
+vertex $-1 -1 $-1 $198 $257 #
+vertex $-1 -1 $-1 $196 $258 #
+straight-curve $-1 -1 $-1 -7.5 35 30.000000000000004 0 0 -1 I I #
+color-adesk-attrib $-1 -1 $259 $-1 $159 250 #
+ellipse-curve $-1 -1 $-1 2.9999999999999996 10.199999999999999 0 0 0 1 2 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $160 $120 #
+point $-1 -1 $-1 3 8.1999999999999993 0 #
+ptlist-eye-attrib $-1 -1 $-1 $165 $125 #
+ptlist-eye-attrib $-1 -1 $-1 $170 $134 #
+coedge $-1 -1 $-1 $174 $173 $260 $261 reversed $101 $-1 #
+coedge $-1 -1 $-1 $189 $262 $173 $213 forward $149 $-1 #
+edge $263 -1 $-1 $264 0 $220 35 $212 $265 forward @7 unknown #
+coedge $-1 -1 $-1 $266 $267 $174 $215 reversed $268 $-1 #
+edge $269 -1 $-1 $270 0 $219 35 $174 $271 forward @7 unknown #
+coedge $-1 -1 $-1 $272 $175 $267 $273 reversed $200 $-1 #
+coedge $-1 -1 $-1 $175 $199 $189 $240 reversed $200 $-1 #
+color-adesk-attrib $-1 -1 $274 $-1 $176 250 #
+vertex $-1 -1 $-1 $215 $275 #
+vertex $-1 -1 $-1 $213 $276 #
+straight-curve $-1 -1 $-1 5.5 35 2 -1 0 -2.0185873175002847e-017 I I #
+coedge $-1 -1 $-1 $277 $177 $278 $279 reversed $142 $-1 #
+coedge $-1 -1 $-1 $177 $277 $191 $242 forward $142 $-1 #
+coedge $-1 -1 $-1 $193 $280 $177 $225 reversed $200 $-1 #
+edge $281 -1 $-1 $244 0 $282 11 $177 $283 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $178 $106 $3 $4 #
+fmesh-eye-attrib $-1 -1 $284 $179 $144 #
+color-adesk-attrib $-1 -1 $285 $-1 $180 250 #
+face $286 -1 $-1 $287 $288 $6 $-1 $289 forward single #
+loop $-1 -1 $-1 $-1 $290 $180 #
+plane-surface $-1 -1 $-1 7.5 0 2 1 0 0 0 0 -1 forward_v I I I I #
+coedge $-1 -1 $-1 $291 $278 $280 $292 forward $181 $-1 #
+ref_vt-eye-attrib $-1 -1 $-1 $184 $110 $3 $4 #
+fmesh-eye-attrib $-1 -1 $293 $185 $148 #
+color-adesk-attrib $-1 -1 $294 $-1 $186 250 #
+face $295 -1 $-1 $-1 $296 $6 $-1 $297 reversed single #
+plane-surface $-1 -1 $-1 0 35 13.437029413018594 0 1 0 0 0 1 forward_v I I I I #
+coedge $-1 -1 $-1 $197 $298 $199 $255 forward $187 $-1 #
+coedge $-1 -1 $-1 $262 $189 $298 $299 reversed $149 $-1 #
+edge $300 -1 $-1 $220 0 $301 28.000000000000007 $189 $302 forward @7 unknown #
+coedge $-1 -1 $-1 $192 $191 $303 $304 reversed $115 $-1 #
+edge $305 -1 $-1 $306 0 $244 35 $223 $307 forward @7 unknown #
+color-adesk-attrib $-1 -1 $308 $-1 $194 250 #
+vertex $-1 -1 $-1 $242 $309 #
+ellipse-curve $-1 -1 $-1 -5.5 35 2 0 -1 0 -1.4142135623730949 0 -1.4142135623730949 1 I I #
+coedge $-1 -1 $-1 $303 $310 $195 $247 forward $296 $-1 #
+edge $311 -1 $-1 $253 0 $249 28.000000000000004 $246 $312 forward @7 unknown #
+color-adesk-attrib $-1 -1 $313 $-1 $196 250 #
+vertex $-1 -1 $-1 $247 $314 #
+straight-curve $-1 -1 $-1 -7.5 0 2 0 1 0 I I #
+coedge $-1 -1 $-1 $298 $197 $310 $315 reversed $187 $-1 #
+color-adesk-attrib $-1 -1 $316 $-1 $198 250 #
+vertex $-1 -1 $-1 $315 $317 #
+straight-curve $-1 -1 $-1 -7.5 0 30.000000000000004 0 1 0 I I #
+edge $318 -1 $-1 $301 0 $202 2 $238 $319 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $201 $157 #
+point $-1 -1 $-1 -7.5 35 30.000000000000004 #
+point $-1 -1 $-1 -7.5 35 2 #
+ptlist-eye-attrib $-1 -1 $-1 $205 $159 #
+coedge $-1 -1 $-1 $320 $321 $211 $261 forward $296 $-1 #
+edge $322 -1 $-1 $270 0 $264 11 $260 $323 forward @7 unknown #
+coedge $-1 -1 $-1 $212 $239 $320 $324 reversed $149 $-1 #
+color-adesk-attrib $-1 -1 $325 $-1 $213 250 #
+vertex $-1 -1 $-1 $261 $326 #
+straight-curve $-1 -1 $-1 -5.5 0 1.9999999999999998 0 1 0 I I #
+coedge $-1 -1 $-1 $327 $214 $321 $328 reversed $268 $-1 #
+coedge $-1 -1 $-1 $214 $327 $216 $273 forward $268 $-1 #
+loop $-1 -1 $-1 $-1 $267 $287 #
+color-adesk-attrib $-1 -1 $329 $-1 $215 250 #
+vertex $-1 -1 $-1 $328 $330 #
+straight-curve $-1 -1 $-1 5.5 0 2 0 1 0 I I #
+coedge $-1 -1 $-1 $331 $216 $332 $333 reversed $200 $-1 #
+edge $334 -1 $-1 $335 0 $219 28.000000000000004 $267 $336 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $218 $176 #
+point $-1 -1 $-1 5.5 35 2 #
+point $-1 -1 $-1 -5.5 35 1.9999999999999998 #
+coedge $-1 -1 $-1 $223 $222 $337 $338 reversed $142 $-1 #
+coedge $-1 -1 $-1 $232 $339 $222 $279 forward $181 $-1 #
+edge $340 -1 $-1 $341 0 $282 35 $278 $342 forward @7 unknown #
+coedge $-1 -1 $-1 $224 $331 $232 $292 reversed $200 $-1 #
+color-adesk-attrib $-1 -1 $343 $-1 $225 250 #
+vertex $-1 -1 $-1 $279 $344 #
+straight-curve $-1 -1 $-1 -5.5 35 0 1 0 0 I I #
+ref_vt-eye-attrib $-1 -1 $-1 $227 $144 $3 $4 #
+fmesh-eye-attrib $-1 -1 $345 $228 $180 #
+color-adesk-attrib $-1 -1 $346 $-1 $229 250 #
+face $347 -1 $-1 $72 $268 $6 $-1 $348 forward single #
+loop $-1 -1 $-1 $-1 $332 $229 #
+plane-surface $-1 -1 $-1 7.5 0 30 1.776356839400252e-015 0 1 1 0 -1.776356839400252e-015 forward_v I I I I #
+coedge $-1 -1 $-1 $349 $350 $331 $351 forward $230 $-1 #
+coedge $-1 -1 $-1 $339 $232 $350 $352 reversed $181 $-1 #
+edge $353 -1 $-1 $282 -0.78539816339744828 $354 0.78539816339744828 $232 $355 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $234 $148 $3 $4 #
+fmesh-eye-attrib $-1 -1 $356 $235 $186 #
+color-adesk-attrib $-1 -1 $357 $-1 $236 250 #
+loop $-1 -1 $-1 $-1 $310 $236 #
+plane-surface $-1 -1 $-1 0 0 13.437029413018594 0 1 0 0 0 1 forward_v I I I I #
+coedge $-1 -1 $-1 $238 $251 $239 $299 forward $187 $-1 #
+edge $358 -1 $-1 $359 0 $301 35 $298 $360 forward @7 unknown #
+color-adesk-attrib $-1 -1 $361 $-1 $240 250 #
+vertex $-1 -1 $-1 $299 $362 #
+straight-curve $-1 -1 $-1 -5.5 35 1.9999999999999998 0 0 1 I I #
+coedge $-1 -1 $-1 $337 $246 $241 $304 forward $296 $-1 #
+edge $363 -1 $-1 $249 -0.78539816339744828 $306 0.78539816339744828 $303 $364 forward @7 unknown #
+color-adesk-attrib $-1 -1 $365 $-1 $242 250 #
+vertex $-1 -1 $-1 $304 $366 #
+straight-curve $-1 -1 $-1 -5.5 0 0 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $243 $194 #
+point $-1 -1 $-1 -5.5 35 0 #
+coedge $-1 -1 $-1 $246 $320 $251 $315 forward $296 $-1 #
+color-adesk-attrib $-1 -1 $367 $-1 $247 250 #
+straight-curve $-1 -1 $-1 -7.5 0 30.000000000000004 0 0 -1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $248 $196 #
+point $-1 -1 $-1 -7.5 0 2 #
+edge $368 -1 $-1 $359 0 $253 2 $310 $369 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $252 $198 #
+point $-1 -1 $-1 -7.5 0 30.000000000000004 #
+color-adesk-attrib $-1 -1 $370 $-1 $255 250 #
+straight-curve $-1 -1 $-1 -5.5 35 30.000000000000007 -1 0 -1.7763568394002505e-015 I I #
+coedge $-1 -1 $-1 $310 $260 $262 $324 forward $296 $-1 #
+coedge $-1 -1 $-1 $260 $371 $266 $328 forward $296 $-1 #
+color-adesk-attrib $-1 -1 $372 $-1 $261 250 #
+straight-curve $-1 -1 $-1 5.5 0 2 -1 0 -2.0185873175002847e-017 I I #
+edge $373 -1 $-1 $264 0 $359 28.000000000000007 $320 $374 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $263 $213 #
+point $-1 -1 $-1 -5.5 0 1.9999999999999998 #
+coedge $-1 -1 $-1 $267 $266 $375 $376 forward $268 $-1 #
+edge $377 -1 $-1 $378 0 $270 28.000000000000004 $321 $379 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $269 $215 #
+point $-1 -1 $-1 5.5 0 2 #
+coedge $-1 -1 $-1 $280 $272 $290 $351 reversed $200 $-1 #
+coedge $-1 -1 $-1 $375 $380 $272 $333 forward $288 $-1 #
+edge $381 -1 $-1 $382 0 $335 1.9999999999999982 $332 $383 forward @7 unknown #
+color-adesk-attrib $-1 -1 $384 $-1 $273 250 #
+vertex $-1 -1 $-1 $376 $385 #
+straight-curve $-1 -1 $-1 5.5000000000000018 35 30.000000000000004 -6.3441315692866085e-017 0 -1 I I #
+coedge $-1 -1 $-1 $386 $303 $277 $338 forward $296 $-1 #
+edge $387 -1 $-1 $306 0 $341 11 $337 $388 forward @7 unknown #
+coedge $-1 -1 $-1 $278 $291 $386 $389 reversed $181 $-1 #
+color-adesk-attrib $-1 -1 $390 $-1 $279 250 #
+vertex $-1 -1 $-1 $338 $391 #
+straight-curve $-1 -1 $-1 5.5 0 0 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $281 $225 #
+point $-1 -1 $-1 5.5 35 0 #
+ref_vt-eye-attrib $-1 -1 $-1 $285 $180 $3 $4 #
+fmesh-eye-attrib $-1 -1 $392 $286 $229 #
+color-adesk-attrib $-1 -1 $393 $-1 $287 250 #
+plane-surface $-1 -1 $-1 5.5000000000000018 0 30.000000000000004 -1 0 6.3441315692866085e-017 6.3441315692866085e-017 0 1 forward_v I I I I #
+coedge $-1 -1 $-1 $394 $290 $380 $395 reversed $230 $-1 #
+coedge $-1 -1 $-1 $290 $394 $291 $352 forward $230 $-1 #
+edge $396 -1 $-1 $354 0 $382 28 $290 $397 forward @7 unknown #
+edge $398 -1 $-1 $399 0 $354 35 $350 $400 forward @7 unknown #
+color-adesk-attrib $-1 -1 $401 $-1 $292 250 #
+vertex $-1 -1 $-1 $352 $402 #
+ellipse-curve $-1 -1 $-1 5.5 35 2 0 -1 0 1.4142135623730949 0 -1.4142135623730949 1 I I #
+ref_vt-eye-attrib $-1 -1 $-1 $294 $186 $3 $4 #
+fmesh-eye-attrib $-1 -1 $403 $295 $236 #
+color-adesk-attrib $-1 -1 $404 $-1 $299 250 #
+vertex $-1 -1 $-1 $315 $405 #
+straight-curve $-1 -1 $-1 -5.5 0 30.000000000000007 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $300 $240 #
+point $-1 -1 $-1 -5.5 35 30.000000000000007 #
+color-adesk-attrib $-1 -1 $406 $-1 $304 250 #
+ellipse-curve $-1 -1 $-1 -5.5 0 2 0 -1 0 -1.4142135623730949 0 -1.4142135623730949 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $305 $242 #
+point $-1 -1 $-1 -5.5 0 0 #
+ptlist-eye-attrib $-1 -1 $-1 $311 $247 #
+color-adesk-attrib $-1 -1 $407 $-1 $315 250 #
+straight-curve $-1 -1 $-1 -5.5 0 30.000000000000007 -1 0 -1.7763568394002505e-015 I I #
+ptlist-eye-attrib $-1 -1 $-1 $318 $255 #
+coedge $-1 -1 $-1 $321 $408 $409 $410 forward $296 $-1 #
+ptlist-eye-attrib $-1 -1 $-1 $322 $261 #
+color-adesk-attrib $-1 -1 $411 $-1 $324 250 #
+straight-curve $-1 -1 $-1 -5.5 0 1.9999999999999998 0 0 1 I I #
+coedge $-1 -1 $-1 $409 $332 $327 $376 reversed $288 $-1 #
+edge $412 -1 $-1 $378 0 $335 35 $327 $413 forward @7 unknown #
+color-adesk-attrib $-1 -1 $414 $-1 $328 250 #
+vertex $-1 -1 $-1 $410 $415 #
+straight-curve $-1 -1 $-1 5.5000000000000018 0 30.000000000000004 -6.3441315692866085e-017 0 -1 I I #
+coedge $-1 -1 $-1 $332 $409 $349 $395 forward $288 $-1 #
+color-adesk-attrib $-1 -1 $416 $-1 $333 250 #
+vertex $-1 -1 $-1 $395 $417 #
+straight-curve $-1 -1 $-1 7.5 35 30 -1 0 1.776356839400252e-015 I I #
+ptlist-eye-attrib $-1 -1 $-1 $334 $273 #
+point $-1 -1 $-1 5.5000000000000018 35 30.000000000000004 #
+coedge $-1 -1 $-1 $408 $337 $339 $389 forward $296 $-1 #
+color-adesk-attrib $-1 -1 $418 $-1 $338 250 #
+straight-curve $-1 -1 $-1 -5.5 0 0 1 0 0 I I #
+edge $419 -1 $-1 $341 -0.78539816339744828 $399 0.78539816339744828 $386 $420 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $340 $279 #
+point $-1 -1 $-1 5.5 0 0 #
+ref_vt-eye-attrib $-1 -1 $-1 $346 $229 $3 $4 #
+fmesh-eye-attrib $-1 -1 $421 $347 $287 #
+coedge $-1 -1 $-1 $350 $349 $408 $422 reversed $230 $-1 #
+edge $423 -1 $-1 $424 0 $382 35 $380 $425 forward @7 unknown #
+color-adesk-attrib $-1 -1 $426 $-1 $351 250 #
+straight-curve $-1 -1 $-1 7.5 35 2 0 0 1 I I #
+color-adesk-attrib $-1 -1 $427 $-1 $352 250 #
+vertex $-1 -1 $-1 $389 $428 #
+straight-curve $-1 -1 $-1 7.5 0 2 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $353 $292 #
+point $-1 -1 $-1 7.5 35 2 #
+ref_vt-eye-attrib $-1 -1 $-1 $357 $236 $3 $4 #
+ptlist-eye-attrib $-1 -1 $-1 $358 $299 #
+point $-1 -1 $-1 -5.5 0 30.000000000000007 #
+ptlist-eye-attrib $-1 -1 $-1 $363 $304 #
+ptlist-eye-attrib $-1 -1 $-1 $368 $315 #
+coedge $-1 -1 $-1 $371 $386 $394 $422 forward $296 $-1 #
+coedge $-1 -1 $-1 $380 $375 $371 $410 reversed $288 $-1 #
+edge $429 -1 $-1 $424 0 $378 1.9999999999999982 $371 $430 forward @7 unknown #
+ptlist-eye-attrib $-1 -1 $-1 $373 $324 #
+color-adesk-attrib $-1 -1 $431 $-1 $376 250 #
+straight-curve $-1 -1 $-1 5.5000000000000018 0 30.000000000000004 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $377 $328 #
+point $-1 -1 $-1 5.5000000000000018 0 30.000000000000004 #
+ptlist-eye-attrib $-1 -1 $-1 $381 $333 #
+point $-1 -1 $-1 7.5 35 30 #
+ptlist-eye-attrib $-1 -1 $-1 $387 $338 #
+color-adesk-attrib $-1 -1 $432 $-1 $389 250 #
+ellipse-curve $-1 -1 $-1 5.5 0 2 0 -1 0 1.4142135623730949 0 -1.4142135623730949 1 I I #
+ref_vt-eye-attrib $-1 -1 $-1 $393 $287 $3 $4 #
+edge $433 -1 $-1 $399 0 $424 28 $408 $434 forward @7 unknown #
+color-adesk-attrib $-1 -1 $435 $-1 $395 250 #
+vertex $-1 -1 $-1 $422 $436 #
+straight-curve $-1 -1 $-1 7.5 0 30 0 1 0 I I #
+ptlist-eye-attrib $-1 -1 $-1 $396 $351 #
+ptlist-eye-attrib $-1 -1 $-1 $398 $352 #
+point $-1 -1 $-1 7.5 0 2 #
+color-adesk-attrib $-1 -1 $437 $-1 $410 250 #
+straight-curve $-1 -1 $-1 7.5 0 30 -1 0 1.776356839400252e-015 I I #
+ptlist-eye-attrib $-1 -1 $-1 $412 $376 #
+ptlist-eye-attrib $-1 -1 $-1 $419 $389 #
+color-adesk-attrib $-1 -1 $438 $-1 $422 250 #
+straight-curve $-1 -1 $-1 7.5 0 2 0 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $423 $395 #
+point $-1 -1 $-1 7.5 0 30 #
+ptlist-eye-attrib $-1 -1 $-1 $429 $410 #
+ptlist-eye-attrib $-1 -1 $-1 $433 $422 #
