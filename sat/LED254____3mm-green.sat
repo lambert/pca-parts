@@ -1,0 +1,248 @@
+700 245 9 0         
+16 Autodesk AutoCAD 17 ASM 6.0.2.7023 NT 24 Wed Dec 28 10:37:26 2011 
+1 9.9999999999999995e-007 1e-010 
+body $9 -1 $-1 $10 $-1 $-1 #
+body $11 -1 $-1 $12 $-1 $-1 #
+body $13 -1 $-1 $14 $-1 $-1 #
+body $15 -1 $-1 $16 $-1 $-1 #
+body $17 -1 $-1 $18 $-1 $-1 #
+body $19 -1 $-1 $20 $-1 $-1 #
+body $21 -1 $-1 $22 $-1 $-1 #
+body $23 -1 $-1 $24 $-1 $-1 #
+body $25 -1 $-1 $26 $-1 $-1 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $0 $27 $28 #
+lump $29 -1 $-1 $-1 $30 $0 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $1 $31 $32 #
+lump $33 -1 $-1 $-1 $34 $1 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $2 $35 $36 #
+lump $37 -1 $-1 $-1 $38 $2 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $3 $39 $40 #
+lump $41 -1 $-1 $-1 $42 $3 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $4 $43 $44 #
+lump $45 -1 $-1 $-1 $46 $4 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $5 $47 $48 #
+lump $49 -1 $-1 $-1 $50 $5 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $6 $51 $52 #
+lump $53 -1 $-1 $-1 $54 $6 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $7 $55 $56 #
+lump $57 -1 $-1 $-1 $58 $7 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $8 $59 $60 #
+lump $61 -1 $-1 $-1 $62 $8 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.019472500261412881 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $10 $27 $28 #
+shell $63 -1 $-1 $-1 $-1 $64 $-1 $10 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.071202859351548894 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $12 $31 $32 #
+shell $65 -1 $-1 $-1 $-1 $66 $-1 $12 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.071202859351548894 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $14 $35 $36 #
+shell $67 -1 $-1 $-1 $-1 $68 $-1 $14 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.071202859351548894 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $16 $39 $40 #
+shell $69 -1 $-1 $-1 $-1 $70 $-1 $16 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.071202859351548894 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $18 $43 $44 #
+shell $71 -1 $-1 $-1 $-1 $72 $-1 $18 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.011729492830147244 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $20 $47 $48 #
+shell $73 -1 $-1 $-1 $-1 $74 $-1 $20 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.019472500261412881 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $22 $51 $52 #
+shell $75 -1 $-1 $-1 $-1 $76 $-1 $22 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.011729492830147244 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $24 $55 $56 #
+shell $77 -1 $-1 $-1 $-1 $78 $-1 $24 #
+eye_refinement $-1 -1 @5 grid  1 @3 tri 1 @4 surf 0 @3 adj 0 @4 grad 0 @9 postcheck 0 @4 stol 0.019472500261412881 @4 ntol 30 @4 dsil 0 @8 flatness 0 @7 pixarea 0 @4 hmax 0 @6 gridar 0 @5 mgrid 3000 @5 ugrid 0 @5 vgrid 0 @10 end_fields #
+vertex_template $-1 -1 3 0 1 8 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $26 $59 $60 #
+shell $79 -1 $-1 $-1 $-1 $80 $-1 $26 #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $30 $27 $28 #
+face $81 -1 $-1 $-1 $82 $30 $-1 $83 forward single #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $34 $31 $32 #
+face $84 -1 $-1 $-1 $85 $34 $-1 $86 forward single #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $38 $35 $36 #
+face $87 -1 $-1 $-1 $88 $38 $-1 $89 reversed double out #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $42 $39 $40 #
+face $90 -1 $-1 $-1 $91 $42 $-1 $92 forward single #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $46 $43 $44 #
+face $93 -1 $-1 $-1 $94 $46 $-1 $95 forward double out #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $50 $47 $48 #
+face $96 -1 $-1 $-1 $97 $50 $-1 $98 reversed double out #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $54 $51 $52 #
+face $99 -1 $-1 $-1 $100 $54 $-1 $101 forward single #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $58 $55 $56 #
+face $102 -1 $-1 $-1 $103 $58 $-1 $104 reversed double out #
+ref_vt-eye-attrib $-1 -1 $-1 $-1 $62 $59 $60 #
+face $105 -1 $-1 $-1 $106 $62 $-1 $107 forward single #
+color-adesk-attrib $-1 -1 $108 $-1 $64 90 #
+loop $-1 -1 $-1 $-1 $109 $64 #
+sphere-surface $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -0.5 1.5 -1.8369095307335659e-016 -1 0 0 0 1 forward_v I I I I #
+color-adesk-attrib $-1 -1 $110 $-1 $66 90 #
+loop $-1 -1 $-1 $111 $112 $66 #
+cone-surface $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -0.5 0 0 -1 -2.7553642961003488e-016 -1.5 0 1 I I 0 1 1.5 forward I I I I #
+color-adesk-attrib $-1 -1 $113 $-1 $68 90 #
+loop $-1 -1 $-1 $114 $115 $68 #
+plane-surface $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -3.5 0 0 1 -1.8369095307335659e-016 -1 0 forward_v I I I I #
+color-adesk-attrib $-1 -1 $116 $-1 $70 90 #
+loop $-1 -1 $-1 $117 $118 $70 #
+cone-surface $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -2.5 0 0 -1 -3.6738190614671318e-016 -2 0 1 I I 0 1 2 forward I I I I #
+color-adesk-attrib $-1 -1 $119 $-1 $72 90 #
+loop $-1 -1 $-1 $120 $121 $72 #
+plane-surface $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -2.5 0 0 1 -1.8369095307335659e-016 -1 0 forward_v I I I I #
+color-adesk-attrib $-1 -1 $122 $-1 $74 256 #
+loop $-1 -1 $-1 $-1 $123 $74 #
+plane-surface $-1 -1 $-1 1.2699999999999998 -1.2700000000000002 -30.5 0 0 1 -1.8369095307335659e-016 -1 0 forward_v I I I I #
+color-adesk-attrib $-1 -1 $124 $-1 $76 256 #
+loop $-1 -1 $-1 $125 $126 $76 #
+cone-surface $-1 -1 $-1 1.2699999999999998 -1.2700000000000002 -3.5 0 0 -1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I 0 1 0.26000000000000001 forward I I I I #
+color-adesk-attrib $-1 -1 $127 $-1 $78 256 #
+loop $-1 -1 $-1 $-1 $128 $78 #
+plane-surface $-1 -1 $-1 -1.2700000000000005 -1.2699999999999996 -31.5 0 0 1 -1.8369095307335659e-016 -1 0 forward_v I I I I #
+color-adesk-attrib $-1 -1 $129 $-1 $80 256 #
+loop $-1 -1 $-1 $130 $131 $80 #
+cone-surface $-1 -1 $-1 -1.2700000000000005 -1.2699999999999996 -3.5 0 0 -1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I 0 1 0.26000000000000001 forward I I I I #
+fmesh-eye-attrib $-1 -1 $132 $81 $64 #
+coedge $-1 -1 $-1 $109 $109 $-1 $133 reversed $82 $-1 #
+fmesh-eye-attrib $-1 -1 $134 $84 $66 #
+loop $-1 -1 $-1 $-1 $135 $66 #
+coedge $-1 -1 $-1 $112 $112 $-1 $136 forward $85 $-1 #
+fmesh-eye-attrib $-1 -1 $137 $87 $68 #
+loop $-1 -1 $-1 $138 $139 $68 #
+coedge $-1 -1 $-1 $115 $115 $-1 $140 reversed $88 $-1 #
+fmesh-eye-attrib $-1 -1 $141 $90 $70 #
+loop $-1 -1 $-1 $-1 $142 $70 #
+coedge $-1 -1 $-1 $118 $118 $-1 $143 reversed $91 $-1 #
+fmesh-eye-attrib $-1 -1 $144 $93 $72 #
+loop $-1 -1 $-1 $-1 $145 $72 #
+coedge $-1 -1 $-1 $121 $121 $-1 $146 reversed $94 $-1 #
+fmesh-eye-attrib $-1 -1 $147 $96 $74 #
+coedge $-1 -1 $-1 $123 $123 $-1 $148 reversed $97 $-1 #
+fmesh-eye-attrib $-1 -1 $149 $99 $76 #
+loop $-1 -1 $-1 $-1 $150 $76 #
+coedge $-1 -1 $-1 $126 $126 $-1 $151 reversed $100 $-1 #
+fmesh-eye-attrib $-1 -1 $152 $102 $78 #
+coedge $-1 -1 $-1 $128 $128 $-1 $153 reversed $103 $-1 #
+fmesh-eye-attrib $-1 -1 $154 $105 $80 #
+loop $-1 -1 $-1 $-1 $155 $80 #
+coedge $-1 -1 $-1 $131 $131 $-1 $156 reversed $106 $-1 #
+ref_vt-eye-attrib $-1 -1 $-1 $108 $64 $27 $28 #
+edge $157 -1 $-1 $158 -3.5661216456669052e-017 $158 6.2831853071795862 $109 $159 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $110 $66 $31 $32 #
+coedge $-1 -1 $-1 $135 $135 $-1 $160 forward $111 $-1 #
+edge $161 -1 $-1 $162 -3.5661216456669052e-017 $162 6.2831853071795862 $112 $163 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $113 $68 $35 $36 #
+loop $-1 -1 $-1 $-1 $164 $68 #
+coedge $-1 -1 $-1 $139 $139 $-1 $165 forward $114 $-1 #
+edge $166 -1 $-1 $167 -3.8353651851674719e-017 $167 6.2831853071795862 $115 $168 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $116 $70 $39 $40 #
+coedge $-1 -1 $-1 $142 $142 $-1 $169 forward $117 $-1 #
+edge $170 -1 $-1 $171 -3.8353651851674719e-017 $171 6.2831853071795862 $118 $172 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $119 $72 $43 $44 #
+coedge $-1 -1 $-1 $145 $145 $-1 $173 forward $120 $-1 #
+edge $174 -1 $-1 $175 3.5661216456669052e-017 $175 6.2831853071795862 $121 $176 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $122 $74 $47 $48 #
+edge $177 -1 $-1 $178 1.8369095307335656e-016 $178 6.2831853071795862 $123 $179 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $124 $76 $51 $52 #
+coedge $-1 -1 $-1 $150 $150 $-1 $180 forward $125 $-1 #
+edge $181 -1 $-1 $182 1.8369095307335656e-016 $182 6.2831853071795862 $126 $183 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $127 $78 $55 $56 #
+edge $184 -1 $-1 $185 1.8369095307335656e-016 $185 6.2831853071795862 $128 $186 forward @7 unknown #
+ref_vt-eye-attrib $-1 -1 $-1 $129 $80 $59 $60 #
+coedge $-1 -1 $-1 $155 $155 $-1 $187 forward $130 $-1 #
+edge $188 -1 $-1 $189 1.8369095307335656e-016 $189 6.2831853071795862 $131 $190 forward @7 unknown #
+color-adesk-attrib $-1 -1 $191 $-1 $133 90 #
+vertex $-1 -1 $-1 $133 $192 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -0.5 0 0 -1 -2.7553642961003488e-016 -1.5 0 1 I I #
+edge $193 -1 $-1 $194 3.5661216456669052e-017 $194 6.2831853071795862 $135 $195 forward @7 unknown #
+color-adesk-attrib $-1 -1 $196 $-1 $136 90 #
+vertex $-1 -1 $-1 $136 $197 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -0.5 0 0 -1 -2.7553642961003488e-016 -1.5 0 1 I I #
+coedge $-1 -1 $-1 $164 $164 $-1 $198 forward $138 $-1 #
+edge $199 -1 $-1 $200 1.8369095307335656e-016 $200 6.2831853071795862 $139 $201 forward @7 unknown #
+color-adesk-attrib $-1 -1 $202 $-1 $140 90 #
+vertex $-1 -1 $-1 $140 $203 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -3.5 0 0 1 -3.6738190614671318e-016 -2 0 1 I I #
+edge $204 -1 $-1 $205 -3.8353651851674719e-017 $205 6.2831853071795862 $142 $206 forward @7 unknown #
+color-adesk-attrib $-1 -1 $207 $-1 $143 90 #
+vertex $-1 -1 $-1 $143 $208 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -2.5 0 0 1 -3.6738190614671318e-016 -2 0 1 I I #
+edge $209 -1 $-1 $210 -3.8353651851674719e-017 $210 6.2831853071795862 $145 $211 forward @7 unknown #
+color-adesk-attrib $-1 -1 $212 $-1 $146 90 #
+vertex $-1 -1 $-1 $146 $213 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -2.5 0 0 1 -2.7553642961003488e-016 -1.5 0 1 I I #
+color-adesk-attrib $-1 -1 $214 $-1 $148 256 #
+vertex $-1 -1 $-1 $148 $215 #
+ellipse-curve $-1 -1 $-1 1.2699999999999998 -1.2700000000000002 -30.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+edge $216 -1 $-1 $217 1.8369095307335656e-016 $217 6.2831853071795862 $150 $218 forward @7 unknown #
+color-adesk-attrib $-1 -1 $219 $-1 $151 256 #
+vertex $-1 -1 $-1 $151 $220 #
+ellipse-curve $-1 -1 $-1 1.2699999999999998 -1.2700000000000002 -3.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+color-adesk-attrib $-1 -1 $221 $-1 $153 256 #
+vertex $-1 -1 $-1 $153 $222 #
+ellipse-curve $-1 -1 $-1 -1.2700000000000005 -1.2699999999999996 -31.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+edge $223 -1 $-1 $224 1.8369095307335656e-016 $224 6.2831853071795862 $155 $225 forward @7 unknown #
+color-adesk-attrib $-1 -1 $226 $-1 $156 256 #
+vertex $-1 -1 $-1 $156 $227 #
+ellipse-curve $-1 -1 $-1 -1.2700000000000005 -1.2699999999999996 -3.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $157 $133 #
+point $-1 -1 $-1 -6.6613381477509392e-016 -2.77 -0.5 #
+color-adesk-attrib $-1 -1 $228 $-1 $160 90 #
+vertex $-1 -1 $-1 $160 $229 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -2.5 0 0 1 -2.7553642961003488e-016 -1.5 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $161 $136 #
+point $-1 -1 $-1 -6.6613381477509392e-016 -2.77 -0.5 #
+edge $230 -1 $-1 $231 1.8369095307335656e-016 $231 6.2831853071795862 $164 $232 forward @7 unknown #
+color-adesk-attrib $-1 -1 $233 $-1 $165 90 #
+vertex $-1 -1 $-1 $165 $234 #
+ellipse-curve $-1 -1 $-1 1.2699999999999998 -1.2700000000000002 -3.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $166 $140 #
+point $-1 -1 $-1 -8.8817841970012523e-016 -3.27 -3.5 #
+color-adesk-attrib $-1 -1 $235 $-1 $169 90 #
+vertex $-1 -1 $-1 $169 $236 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -3.5 0 0 1 -3.6738190614671318e-016 -2 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $170 $143 #
+point $-1 -1 $-1 -8.8817841970012523e-016 -3.27 -2.5 #
+color-adesk-attrib $-1 -1 $237 $-1 $173 90 #
+vertex $-1 -1 $-1 $173 $238 #
+ellipse-curve $-1 -1 $-1 -4.4408920985006262e-016 -1.27 -2.5 0 0 1 -3.6738190614671318e-016 -2 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $174 $146 #
+point $-1 -1 $-1 -6.6613381477509392e-016 -2.77 -2.5 #
+ptlist-eye-attrib $-1 -1 $-1 $177 $148 #
+point $-1 -1 $-1 1.2699999999999998 -1.5300000000000002 -30.5 #
+color-adesk-attrib $-1 -1 $239 $-1 $180 256 #
+vertex $-1 -1 $-1 $180 $240 #
+ellipse-curve $-1 -1 $-1 1.2699999999999998 -1.2700000000000002 -30.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $181 $151 #
+point $-1 -1 $-1 1.2699999999999998 -1.5300000000000002 -3.5 #
+ptlist-eye-attrib $-1 -1 $-1 $184 $153 #
+point $-1 -1 $-1 -1.2700000000000005 -1.5299999999999996 -31.5 #
+color-adesk-attrib $-1 -1 $241 $-1 $187 256 #
+vertex $-1 -1 $-1 $187 $242 #
+ellipse-curve $-1 -1 $-1 -1.2700000000000005 -1.2699999999999996 -31.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $188 $156 #
+point $-1 -1 $-1 -1.2700000000000005 -1.5299999999999996 -3.5 #
+ptlist-eye-attrib $-1 -1 $-1 $193 $160 #
+point $-1 -1 $-1 -6.6613381477509392e-016 -2.77 -2.5 #
+color-adesk-attrib $-1 -1 $243 $-1 $198 90 #
+vertex $-1 -1 $-1 $198 $244 #
+ellipse-curve $-1 -1 $-1 -1.2700000000000005 -1.2699999999999996 -3.5 0 0 1 -4.7759647799072713e-017 -0.26000000000000001 0 1 I I #
+ptlist-eye-attrib $-1 -1 $-1 $199 $165 #
+point $-1 -1 $-1 1.2699999999999998 -1.5300000000000002 -3.5 #
+ptlist-eye-attrib $-1 -1 $-1 $204 $169 #
+point $-1 -1 $-1 -8.8817841970012523e-016 -3.27 -3.5 #
+ptlist-eye-attrib $-1 -1 $-1 $209 $173 #
+point $-1 -1 $-1 -8.8817841970012523e-016 -3.27 -2.5 #
+ptlist-eye-attrib $-1 -1 $-1 $216 $180 #
+point $-1 -1 $-1 1.2699999999999998 -1.5300000000000002 -30.5 #
+ptlist-eye-attrib $-1 -1 $-1 $223 $187 #
+point $-1 -1 $-1 -1.2700000000000005 -1.5299999999999996 -31.5 #
+ptlist-eye-attrib $-1 -1 $-1 $230 $198 #
+point $-1 -1 $-1 -1.2700000000000005 -1.5299999999999996 -3.5 #
