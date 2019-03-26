@@ -167,7 +167,7 @@ dwg/CON-HDR254P2X36_Conrad_744042__.dwg
 dwg/CON-RJ45-4X8_Molex_432238028__.dwg
 dwg/CON-SIL-200P-13_Samtec_SMM-113-01-X-S__.dwg
 dwg/CON-SIL-350P-2_Molex_395011002__.dwg
-dwg/CON-SIL-350P-3N_Molex_395011003__.dwg
+dwg/CON-SIL-350P-3_Molex_395011003__.dwg
 dwg/CON-TP_Keystone_5000_miniature_red.dwg
 dwg/CON-TP_Keystone_5001_miniature_black.dwg
 dwg/CON-TP_Keystone_5002_miniature_white.dwg
@@ -192,7 +192,7 @@ dwg/DIO762-520X270_ON-Semi_1N4001__.dwg
 dwg/DIO762-520X270_Vishay_1N4001__.dwg
 dwg/DIOM16080X71_CooperBussmann__0603-ESDA_.dwg
 dwg/DIOM200120X89_CooperBussmann__0805-ESDA_.dwg
-dwg/DIOMELF3216N____.dwg
+dwg/DIOMELF3216____.dwg
 dwg/DIOMELF5227____.dwg
 dwg/DIP14300_CDTechnologies_NMH0505DC__.dwg
 dwg/DIP14300_CDTechnologies_NMH0509DC__.dwg
@@ -318,9 +318,9 @@ dwg/LED254____5mm-red.dwg
 dwg/LED254____5mm-yellow.dwg
 dwg/LED254____5x2.5mm-green.dwg
 dwg/LED254____5x2.5mm-red.dwg
-dwg/LEDC200X125X80N_Osram_Q62702P5177__LYR976.dwg
-dwg/LEDC200X125X80N_Osram_Q62702P5179__LGR971.dwg
-dwg/LEDC200X125X80N_Osram_Q62702P5182__LHR974.dwg
+dwg/LEDC200X125X80_Osram_Q62702P5177__LYR976.dwg
+dwg/LEDC200X125X80_Osram_Q62702P5179__LGR971.dwg
+dwg/LEDC200X125X80_Osram_Q62702P5182__LHR974.dwg
 dwg/MECH_ISO1580_M3x04__.dwg
 dwg/MECH_ISO1580_M3x05__.dwg
 dwg/MECH_ISO1580_M3x06__.dwg
